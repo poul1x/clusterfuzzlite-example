@@ -18,5 +18,6 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
   if (data[0] == 'a') {
     return 0;
   }
+
   return 0;
 }
